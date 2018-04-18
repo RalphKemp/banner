@@ -35,7 +35,7 @@ html {
   width: 300px;
 }
 
-.money, .text-main {
+.money, .text-one, .text-two {
   text-align: center;
   color: yellow;
   position: absolute;
@@ -46,10 +46,10 @@ html {
   font-size: 22px;
 }
 
-#banner-rec-text {
+.banner-rec-text {
   font-size: 32px;
 }
 
-#banner-square-text {
+.banner-square-text {
   font-size: 20px;
 }
