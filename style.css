@@ -18,20 +18,34 @@ html {
   flex-direction: column;
 }
 
+.banner-rec, .banner-square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
 .banner-rec {
   height: 250px;
   width: 600px;
-  background-color: blue;
 }
 
 .banner-square {
   height: 250px;
   width: 300px;
-  background-color: red;
 }
 
 .text {
   text-align: center;
-  color: white;
+  color: yellow;
   position: absolute;
+  font-family: 'Questrial', sans-serif;
+}
+
+#banner-square-text {
+  font-size: 22px;
+}
+
+#banner-rec-text {
+  font-size: 30px;
 }

@@ -1,2 +1,2 @@
-TweenMax.to(".text", 2, {left: 600});
+TweenMax.to(".text", 6, {y: 100, opacity: 0});
 
