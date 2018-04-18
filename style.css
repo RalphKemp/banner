@@ -1,0 +1,36 @@
+html {
+  height: 100vh;
+}
+
+.container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-container {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  flex-direction: column;
+}
+
+.banner-rec {
+  height: 250px;
+  width: 600px;
+  background-color: blue;
+}
+
+.banner-square {
+  height: 250px;
+  width: 300px;
+  background-color: red;
+}
+
+.text {
+  text-align: center;
+  color: white;
+}
