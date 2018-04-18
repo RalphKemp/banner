@@ -8,5 +8,8 @@ t1.to(".text-one", 1.1, {opacity: 0, delay: 0.8});
 t1.from(".text-two", 1, {opacity: 0});
 t1.to(".text-two", 1.1, {opacity: 0, delay: 0.8});
 
+t1.to(".banner-rec, .banner-square",  0.1, {backgroundColor: "#235377"});
+
 t1.from(".text-three", 1, {opacity: 0});
-t1.from(".slogan", 1, {opacity: 0, delay: 0.1});
+t1.from(".slogan", 1, {opacity: 0});
+t1.from(".btn-medium", 1, {opacity: 0, delay: 0.5});

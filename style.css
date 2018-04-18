@@ -22,7 +22,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #458cc1;
+  background-color: #2c648e;
 }
 
 .banner-rec {
@@ -68,7 +68,7 @@ html {
 .logo {
   font-family: 'Londrina Solid', cursive;
   font-size: 40px;
-  margin: 10px !important;
+  margin: 10px 0px !important;
 }
 
 .logo-div {
@@ -79,6 +79,22 @@ html {
 
 .r-symbol {
   font-size: 15px;
+}
+
+.btn-medium {
+  color: white;
+  font-size: 16px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #999999;
 }
 
 
