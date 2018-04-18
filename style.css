@@ -35,17 +35,21 @@ html {
   width: 300px;
 }
 
-.text {
+.money, .text-main {
   text-align: center;
   color: yellow;
   position: absolute;
   font-family: 'Questrial', sans-serif;
 }
 
-#banner-square-text {
+.money {
   font-size: 22px;
 }
 
 #banner-rec-text {
-  font-size: 30px;
+  font-size: 32px;
+}
+
+#banner-square-text {
+  font-size: 20px;
 }
