@@ -22,7 +22,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
+  background-color: #458cc1;
 }
 
 .banner-rec {
@@ -35,11 +35,18 @@ html {
   width: 300px;
 }
 
-.money, .text-one, .text-two {
+.money, .text-one, .text-two, .text-three {
   text-align: center;
   color: yellow;
   position: absolute;
   font-family: 'Questrial', sans-serif;
+}
+
+.text-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .money {
@@ -53,3 +60,28 @@ html {
 .banner-square-text {
   font-size: 20px;
 }
+
+.slogan {
+  font-size: 16px;
+}
+
+.logo {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 40px;
+  margin: 10px !important;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.r-symbol {
+  font-size: 15px;
+}
+
+
+
+
+
