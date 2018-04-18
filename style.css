@@ -33,4 +33,5 @@ html {
 .text {
   text-align: center;
   color: white;
+  position: absolute;
 }
