@@ -98,14 +98,39 @@ html {
   color: #999999;
 }
 
-
-#dollar {
+.money {
   color: yellow;
   font-family: 'Questrial', sans-serif;
   position: absolute;
-  bottom: 10px;
-  left: 15px;
 }
+
+#dollar {
+  top: 20px;
+  left: 15px;
+  font-size: 15px;
+}
+
+#euro {
+  top: 10px;
+  right: 45px;
+  font-size: 17px;
+}
+
+#pound {
+  top: 15px;
+  left: 215px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
