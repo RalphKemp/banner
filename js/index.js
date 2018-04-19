@@ -16,7 +16,7 @@ TweenMax.from("#dollar-square", 2.3, { ease: Elastic.easeOut.config(1, 0.8), y: 
 
 
 // slide 1
-t1.from(".text-one", 2.5, {opacity: 0, delay: 0.2});
+t1.from(".text-one", 2.2, {opacity: 0, delay: 0.2});
 // money explosion
 
 

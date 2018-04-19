@@ -19,12 +19,12 @@ html {
 }
 
 .banner-rec {
-  background-image: linear-gradient(to right, #235377, #27597f 300px, #235377 600px);
+  background-image: linear-gradient(to right, #235377, #2c638c 300px, #235377 600px);
   background-size: 600px 100%;
 }
 
 .banner-square {
-  background-image: linear-gradient(to right, #235377, #27597f 150px, #235377 300px);
+  background-image: linear-gradient(to right, #235377, #2c638c 150px, #235377 300px);
   background-size: 300px 100%;
 }
 
@@ -57,7 +57,7 @@ html {
 
 .money {
   z-index: 99;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .text-one {
@@ -152,21 +152,21 @@ html {
 #dollar-square {
   top: 40px;
   left: 75px;
-  font-size: 18px;
+  font-size: 16px;
   color: green;
 }
 
 #euro-square {
   bottom: 40px;
   left: 130px;
-  font-size: 19px;
+  font-size: 17px;
   color: white;
 }
 
 #pound-square {
   top: 30px;
   right: 60px;
-  font-size: 19px;
+  font-size: 17px;
 }
 
 .stocks-div {
