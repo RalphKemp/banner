@@ -18,11 +18,22 @@ html {
   flex-direction: column;
 }
 
+.banner-rec {
+  background-image: linear-gradient(to right, #235377, #376f99 300px, #235377 600px);
+  background-size: 600px 100%;
+}
+
+.banner-square {
+  background-image: linear-gradient(to right, #235377, #376f99 150px, #235377 300px);
+  background-size: 300px 100%;
+}
+
 .banner-rec, .banner-square {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2c648e;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .banner-rec {
@@ -34,6 +45,7 @@ html {
 .banner-square {
   height: 250px;
   width: 300px;
+  position: relative;
 }
 
 .text-one, .text-two, .text-three {
@@ -48,6 +60,10 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+#three-abso {
+  right: 50px;
 }
 
 .money {
@@ -105,27 +121,51 @@ html {
 }
 
 #dollar {
-  top: 20px;
-  left: 15px;
-  font-size: 15px;
+  top: 100px;
+  left: 5px;
+  font-size: 18px;
+  color: green;
 }
 
 #euro {
-  top: 10px;
-  right: 45px;
+  top: 170px;
+  left: 5px;
   font-size: 17px;
 }
 
 #pound {
   top: 15px;
-  left: 215px;
+  left: 15px;
   font-size: 20px;
 }
 
+#dollar-square {
+  top: 20px;
+  left: 20px;
+  font-size: 13px;
+}
 
+#euro-square {
+  top: 20px;
+  left: 115px;
+  font-size: 15px;
+}
 
+#pound-square {
+  top: 20px;
+  right: 15px;
+  font-size: 18px;
+}
 
-
+.stocks-div {
+  position: absolute;
+  left: 0px;
+  height: 250px;
+  width: 415px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 
 
