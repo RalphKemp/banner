@@ -19,12 +19,12 @@ html {
 }
 
 .banner-rec {
-  background-image: linear-gradient(to right, #235377, #376f99 300px, #235377 600px);
+  background-image: linear-gradient(to right, #235377, #2c638c 300px, #235377 600px);
   background-size: 600px 100%;
 }
 
 .banner-square {
-  background-image: linear-gradient(to right, #235377, #376f99 150px, #235377 300px);
+  background-image: linear-gradient(to right, #235377, #2c638c 150px, #235377 300px);
   background-size: 300px 100%;
 }
 
@@ -50,9 +50,18 @@ html {
 
 .text-one, .text-two, .text-three {
   text-align: center;
-  color: yellow;
+  color: #ffff7d;
   position: absolute;
   font-family: 'Questrial', sans-serif;
+}
+
+.money {
+  z-index: 99;
+  opacity: 0.7;
+}
+
+.text-one {
+  z-index: 100;
 }
 
 .text-three {
@@ -63,7 +72,7 @@ html {
 }
 
 #three-abso {
-  right: 50px;
+  right: 42px;
 }
 
 .money {
@@ -99,19 +108,19 @@ html {
 }
 
 .btn-medium {
-  color: white;
+  color: #e3e3e3;
   font-size: 16px;
   border: 1px solid white;
   padding: 5px;
   border-radius: 10px;
-  opacity: 0.7;
+  opacity: 0.8;
   text-decoration: none;
 }
 
 .btn-medium:hover {
   opacity: 1;
   text-decoration: none;
-  color: #999999;
+  color: white;
 }
 
 .money {
@@ -123,50 +132,63 @@ html {
 #dollar {
   top: 100px;
   left: 5px;
-  font-size: 18px;
+  font-size: 22px;
   color: green;
 }
 
 #euro {
   top: 170px;
   left: 5px;
-  font-size: 17px;
+  font-size: 19px;
+  color: white;
 }
 
 #pound {
   top: 15px;
   left: 15px;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 #dollar-square {
-  top: 20px;
-  left: 20px;
-  font-size: 13px;
+  top: 40px;
+  left: 75px;
+  font-size: 16px;
+  color: green;
 }
 
 #euro-square {
-  top: 20px;
-  left: 115px;
-  font-size: 15px;
+  bottom: 40px;
+  left: 130px;
+  font-size: 17px;
+  color: white;
 }
 
 #pound-square {
-  top: 20px;
-  right: 15px;
-  font-size: 18px;
+  top: 30px;
+  right: 60px;
+  font-size: 17px;
 }
 
 .stocks-div {
   position: absolute;
   left: 0px;
   height: 250px;
-  width: 415px;
+  width: 400px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.stocks-div-square {
+  position: absolute;
+  left: 0px;
+  height: 250px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
 
 
 
