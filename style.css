@@ -50,7 +50,7 @@ html {
 
 .text-one, .text-two, .text-three {
   text-align: center;
-  color: yellow;
+  color: #ffff7d;
   position: absolute;
   font-family: 'Questrial', sans-serif;
 }
@@ -99,19 +99,19 @@ html {
 }
 
 .btn-medium {
-  color: white;
+  color: #e3e3e3;
   font-size: 16px;
   border: 1px solid white;
   padding: 5px;
   border-radius: 10px;
-  opacity: 0.7;
+  opacity: 0.8;
   text-decoration: none;
 }
 
 .btn-medium:hover {
   opacity: 1;
   text-decoration: none;
-  color: #999999;
+  color: white;
 }
 
 .money {
@@ -167,6 +167,16 @@ html {
   background-repeat: no-repeat;
 }
 
+.stocks-div-square {
+  position: absolute;
+  left: 0px;
+  height: 250px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
 
 
 
