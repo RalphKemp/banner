@@ -16,21 +16,23 @@ TweenMax.from("#dollar-square", 2.3, { ease: Elastic.easeOut.config(1, 0.8), y: 
 
 
 // slide 1
-t1.from(".text-one", 1.8, {opacity: 0, delay: 0.2});
+t1.from(".text-one", 2, {opacity: 0, delay: 0.2});
 // money explosion
 
 
-t1.to(".text-one, #dollar, #euro, #pound, #dollar-square, #pound-square, #euro-square", 1, {opacity: 0, delay: 0.8});
-t1.to(".banner-rec, .banner-square",  0.4, {backgroundImage: "linear-gradient(to right, #214e70, #235377 300px, #214e70 600px)"});
+t1.to(".text-one, #dollar, #euro, #pound, #dollar-square, #pound-square, #euro-square", 1, {opacity: 0, delay: 0.5});
+
+t1.to(".banner-rec",  0.4, {backgroundImage: "linear-gradient(to right, #214e70, #235377 300px, #214e70 600px)"});
+t1.to(".banner-square",  0.4, {backgroundImage: "linear-gradient(to right, #214e70, #235377 150px, #214e70 300px)"});
 // slide 2
 t1.from(".text-two", 0.3, {opacity: 0});
-t1.to(".text-two", 1, {opacity: 0, delay: 1.6});
+t1.to(".text-two", 0.7, {opacity: 0, delay: 1.6});
 //background colour change
 
 
 //slide 3
-t1.from(".stocks-div", 0.5, {opacity: 0});
-t1.from(".stocks-div-square", 0.5, {opacity: 0});
+t1.from(".stocks-div", 0.3, {opacity: 0});
+t1.from(".stocks-div-square", 0.3, {opacity: 0});
 t1.from(".text-three", 0.8, {opacity: 0});
 t1.from(".slogan", 0.8, {opacity: 0});
 t1.from(".btn-medium", 0.8, {opacity: 0, delay: 0.3});

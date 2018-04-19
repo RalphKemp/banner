@@ -123,38 +123,41 @@ html {
 #dollar {
   top: 100px;
   left: 5px;
-  font-size: 18px;
+  font-size: 22px;
   color: green;
 }
 
 #euro {
   top: 170px;
   left: 5px;
-  font-size: 17px;
+  font-size: 19px;
+  color: white;
 }
 
 #pound {
   top: 15px;
   left: 15px;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 #dollar-square {
   top: 20px;
-  left: 20px;
-  font-size: 13px;
+  left: 25px;
+  font-size: 19px;
+  color: green;
 }
 
 #euro-square {
-  top: 20px;
+  bottom: 20px;
   left: 115px;
-  font-size: 15px;
+  font-size: 20px;
+  color: white;
 }
 
 #pound-square {
   top: 20px;
   right: 15px;
-  font-size: 18px;
+  font-size: 23px;
 }
 
 .stocks-div {
