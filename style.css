@@ -63,7 +63,7 @@ html {
 }
 
 #three-abso {
-  right: 50px;
+  right: 42px;
 }
 
 .money {
@@ -161,7 +161,7 @@ html {
   position: absolute;
   left: 0px;
   height: 250px;
-  width: 415px;
+  width: 400px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
