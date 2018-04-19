@@ -34,6 +34,7 @@ html {
 .banner-square {
   height: 250px;
   width: 300px;
+  position: relative;
 }
 
 .text-one, .text-two, .text-three {
@@ -120,6 +121,24 @@ html {
   top: 15px;
   left: 15px;
   font-size: 20px;
+}
+
+#dollar-square {
+  top: 20px;
+  left: 20px;
+  font-size: 13px;
+}
+
+#euro-square {
+  top: 20px;
+  left: 115px;
+  font-size: 15px;
+}
+
+#pound-square {
+  top: 20px;
+  right: 15px;
+  font-size: 18px;
 }
 
 
