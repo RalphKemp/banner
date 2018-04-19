@@ -18,11 +18,22 @@ html {
   flex-direction: column;
 }
 
+.banner-rec {
+  background-image: linear-gradient(to right, #235377, #376f99 300px, #235377 600px);
+  background-size: 600px 100%;
+}
+
+.banner-square {
+  background-image: linear-gradient(to right, #235377, #376f99 150px, #235377 300px);
+  background-size: 300px 100%;
+}
+
 .banner-rec, .banner-square {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2c648e;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .banner-rec {
@@ -108,7 +119,8 @@ html {
 #dollar {
   top: 100px;
   left: 5px;
-  font-size: 15px;
+  font-size: 18px;
+  color: green;
 }
 
 #euro {
