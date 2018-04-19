@@ -29,7 +29,9 @@ t1.to(".text-two", 1.1, {opacity: 0, delay: 0.8});
 
 
 //slide 3
+t1.from(".stocks-div", 0.5, {opacity: 0});
 t1.from(".text-three", 0.8, {opacity: 0});
 t1.from(".slogan", 0.8, {opacity: 0});
 t1.from(".btn-medium", 0.8, {opacity: 0, delay: 0.3});
+
 
