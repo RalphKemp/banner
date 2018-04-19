@@ -7,7 +7,7 @@ TweenMax.from("#pound, #pound-square", 2.2, {opacity: 0, delay: 0.2});
 TweenMax.from("#euro, #euro-square", 2.2, {opacity: 0, delay: 0.2});
 
 TweenMax.to("#dollar", 4, {bezier:{type:"soft", values:[{x:200, y:50}, {x:300, y:30}, {x:560, y:70}], autoRotate:true}, ease:Sine.easeInOut});
-TweenMax.to("#euro", 4, {bezier:{type:"soft", values:[{x:100, y:50}, {x:200, y:-70}, {x:550, y:-140}], autoRotate:true}, ease:Sine.easeInOut});
+TweenMax.to("#euro", 4, {bezier:{type:"soft", values:[{x:100, y:50}, {x:400, y:-70}, {x:550, y:-70}], autoRotate:true}, ease:Sine.easeInOut});
 TweenMax.to("#pound", 4, {bezier:{type:"soft", values:[{x:100, y:50}, {x:300, y:0}, {x:560, y:120}], autoRotate:true}, ease:Sine.easeInOut});
 
 TweenMax.from("#euro-square", 2.3, { ease: Elastic.easeOut.config(1, 0.9), y: 240, delay: 0.2 });
@@ -16,7 +16,7 @@ TweenMax.from("#dollar-square", 2.3, { ease: Elastic.easeOut.config(1, 0.8), y: 
 
 
 // slide 1
-t1.from(".text-one", 2.2, {opacity: 0, delay: 0.2});
+t1.from(".text-one", 2.4, {opacity: 0, delay: 0.2});
 // money explosion
 
 
